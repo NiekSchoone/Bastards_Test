@@ -1,0 +1,19 @@
+{
+  "name": "Bastards_Test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "tsc && mocha dist/test/**/*_spec.js",
+    "start": "npm run test && node dist/app.js",
+    "start-dangerous": "tsc && node dist/app.js"
+  },
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^18.11.8",
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0"
+  }
+}
